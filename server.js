@@ -7,8 +7,6 @@ import { dirname } from 'path';
 import { authenticate } from './utils/googleAuth.js';
 import { generateSpreadPdf } from './utils/generateSpreadPdf.js';
 import { Readable } from 'stream';
-import dotenv from 'dotenv';
-dotenv.config();
 
 const app = express();
 const PORT = 4000;
